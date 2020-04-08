@@ -13,6 +13,7 @@ import Person from './Person'
 // }
 
 function NameList(){
+    const names = ['Suru', 'Nora', 'Jaman']
     const persons =[
         {
             id:1,
@@ -39,9 +40,10 @@ function NameList(){
             skill:'Laravel'
         }
     ]
-
-const personList = persons.map(person=>(<Person person={person}></Person>) )
-return <div>{personList}</div>
+const nameList = names.map((name, index)=><h2 key={index}>{index} >> {name}</h2>) 
+return <div>{nameList}</div>
+// const personList = persons.map(person=>(<Person key={person.id} person={person}></Person>) )
+//return <div>{personList}</div>
 }
 
 export default NameList

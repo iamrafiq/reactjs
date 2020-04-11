@@ -1,6 +1,16 @@
 import React from 'react';
 import './App.css';
-import Form from './components/Form';
+import PostList from './http/PostList'
+import PostForm from './http/PostForm'
+
+//import FocusInput from './components/FocusInput';
+//import ForwardingParentInput from './components/ForwardingParentInput';
+
+//import Form from './components/Form';
+//import LifeCycleA from './components/LifeCycleA';
+//import FragmentDemo from './components/FragmentDemo';
+//import Table from './components/Table';
+//import RefsDemo from './components/RefsDemo';
 //import Greet from './components/Greet'
 //import Welcome from './components/Welcome'
 //import Hello from './components/Hello';
@@ -19,7 +29,15 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <PostForm></PostForm>
+      {/* <PostList></PostList> */}
+      {/* <ForwardingParentInput></ForwardingParentInput> */}
+      {/* <FocusInput></FocusInput> */}
+      {/* <RefsDemo></RefsDemo> */}
+      {/* <Table></Table> */}
+      {/* <FragmentDemo></FragmentDemo> */}
+      {/* <LifeCycleA></LifeCycleA> */}
+      {/* <Form></Form> */}
 
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
